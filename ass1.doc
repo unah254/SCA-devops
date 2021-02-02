@@ -1,0 +1,26 @@
+# DEVOPS CULTURE IN AN ORGANIZATION
+
+In a DevOps organization,collaboration between development and operations is encouraged. Project goals are discussed by stakeholders and developer teams where they create a plan to achieve their goal. The plan is created using various project management tools like Jira, pivotal tracker. This helps with capacity planning and good progress management of the project.
+
+Through agile methodology, teams are required to focus on product quality and speed delivery through the collaborative efforts and response to feedback from all stakeholders. 
+
+Shared responsibility is encouraged for closer collaboration. If a development team shares the responsibility of looking after a system over the course of its lifetime, they are able to share the operations staff’s pain and so identify ways to simplify deployment and maintenance. This is for example through automating deployments. 
+
+Operations staff can share responsibility for the project goals where now they are able to work more closely with developers to better understand the operational needs of a system and help meet the needs. In practice, collaboration often begins with an increased awareness from developers of operational concerns (such as deployment and monitoring) and the adoption of new automation tools and practices by operations staff.
+
+Automation is a cornerstone of the DevOps movement and facilitates collaboration. Continuous improvement with DevOps is exercised by working toward frequent but small software changes with every build iteration, carefully tested with automated tools and released to end-users at a faster pace.These improvements are inherently customer-driven and focus on improving end-user experience with every release.
+
+## IT TOOLS YOU NEED TO KNOW TO BE A GOOD DEVOPS ENGINEER
+### CODING AND SCRIPTING TOOLS: 
+To be a good Devops engineer, you may need some little background in programming languages such as python, Javascript etc. 
+Scripting tools such as shell/ bash will help a DevOps engineer with automation. 
+
+### OTHER TOOLS:
+
+- Knowledge in Operating systems will help you to effectively respond to issues and resolve them quickly. These may include: Ubuntu, Windows, Centos etc
+
+- Knowledge in web servers and load balancers e.g nginx, Apache.
+
+- Knowledge in data stores, being able to read and write SQL, will help in Database Administration for an Ops role.
+
+- Cloud computing knowledge will help in architecting and building cloud native systems. 
