@@ -1,0 +1,46 @@
+INTRO TO DEVOPS II
+Description of Hub, Switch and Router
+Hub: A device(least intelligent) that sends a message from one port to other ports, it transmits a message to the entire network even if it is not for them.
+
+Switch: This is where all networking devices are connected to each other, it’s able to handle the data and knows which specific addresses to send the message.It can decide which computer is the message intended for and send the message directly to the right computer.
+
+Router: A router is a device that can be programmed to handle and route the network traffic. It separates different networks . Routers can calculate the best route for sending data and communicate with each other by protocols.
+OSI model : This is a framework that is used to describe how a network functions. 
+
+Layers of the OSI model
+Physical layer:    Contains the infrastructure that makes communication on networks possible eg cable types, signal type, signal transmission method.  It defines the electrical, mechanical, procedural, and functional specifications for activating, maintaining, and deactivating physical links between devices. 
+
+Data link layer:   Allows nodes to communicate with each other within a LAN. Defines how data is formatted for transmission, how much data can flow between nodes, for how long and what to do when errors are detected.
+
+Network layer:   allows nodes to connect to the internet and send information across different networks.
+
+Transport layer: provides end to end transmission of a message by segmenting a message into multiple data packets. It supports TCP and UDP.
+
+Session layer: initiates, maintains and terminates connections between two end-user-applications. It responds to requests from the presentation layer and issues requests to the transport layer.
+
+Presentation layer: formats and encrypts data
+Application layer: owns the services and functions that end-user applications need to work. 
+
+TCP/IP model
+This is a conceptual divide that describes how data on the internet is packaged, addressed, sent and received. It contains four layers unlike the OSI model and is more reliable.
+
+HTTP, TCP and UDP
+
+HTTP: An application protocol for various systems that allows users to fetch resources such as HTML documents by transmitting hypertext messages between clients and servers.
+TCP:  A communication protocol used to connect network devices to the internet to provide communication between an application program and Internet Protocol.
+UDP:  A communication protocol especially for time-sensitive transmissions such as video playback. It divides messages into packets, called datagrams which are not numbered or reassembled unlike the TCP
+
+Firewall 
+This could be hardware, software or both that  monitor incoming and outgoing traffic to prevent unauthorized(data theft) access to private networks connected to the internet. 
+
+DNS 
+This is like the phonebook of the internet. We access information online through domain names like espn.com. 
+DNS translates domain names to IP addresses so browsers can load internet resources. Each device connected to the internet has a unique IP address which other machines use to find the device. 
+
+Latency
+This is a measure of a delay of  data to get to its destination across the network. There’s low latency which is good web or application performance and high latency which is poor web or application performance. 
+
+Caching
+Process of storing data in a temporary stored area known as the cache for faster recall of content. This reduces network traffic and improves user experience. 
+
+Wireless Access point: A device or configured node that provides wireless access into a local area network. They broadcast a wireless signal that other devices can use to connect to the network through a wireless standard, including WI-FI or Bluetooth.
