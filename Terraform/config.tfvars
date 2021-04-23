@@ -4,7 +4,7 @@ gcp = {
   zone = "us-central1-f"
 }
 autoscaler_name = "my-autoscaler"
-max_replicas = 1
-min_replicas = 1
+max_replicas = 5
+min_replicas = 3
 instance_name = "my-instance-template"
 instance_type = "g1-small"
