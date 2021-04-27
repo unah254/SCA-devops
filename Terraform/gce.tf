@@ -20,8 +20,8 @@ resource "google_compute_instance_template" "instance_template" {
   project        = var.gcp["project"]
   machine_type   = var.instance_type
   can_ip_forward = false
+  metadata_startup_script = "sudo apt-get update -y && sudo apt install nginx -y"
 
-  tags = ["foo", "bar"]
 
   disk {
     source_image = data.google_compute_image.debian_9.id
