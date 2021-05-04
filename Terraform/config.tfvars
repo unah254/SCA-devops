@@ -7,5 +7,5 @@ gcp = {
 autoscaler_name = "my-autoscaler"
 max_replicas = 5
 min_replicas = 3
-instance_name = "my-instance-template"
+instance_name = "my-template-instance"
 instance_type = "g1-small"
